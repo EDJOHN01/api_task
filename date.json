@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete project report",
+      "description": "Finish the final report for the project",
+      "due_date": "2025-03-15",
+      "reminder": {
+        "enabled": true,
+        "reminder_date": "2025-03-14"
+      },
+      "status": "in-progress"
+    },
+    {
+      "id": 2,
+      "title": "Prepare presentation",
+      "description": "Create slides for the upcoming presentation",
+      "due_date": "2025-03-20",
+      "reminder": {
+        "enabled": true,
+        "reminder_date": "2025-03-19"
+      },
+      "status": "not-started"
+    },
+    {
+      "id": 3,
+      "title": "Team meeting",
+      "description": "Monthly team meeting to discuss progress",
+      "due_date": "2025-03-25",
+      "reminder": {
+        "enabled": false,
+        "reminder_date": null
+      },
+      "status": "scheduled"
+    }
+  ]
+}
